@@ -1,9 +1,72 @@
 body{
 	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
+h1,h2,h3,h4,h5,h6,p{
+	font-family:"Times New Roman", Georgia, Serif;
+}
+/*        Header       */
+header,article{
+	padding: 0px;
+	margin: 0px;
+}
+.content-wrapper{
+	padding: 0px 20px 0px 20px;
+}
+.center{
+	text-align: center;
+}
+.inner-box{
+	clear: both;
+	overflow: hidden;
+}
+.personal-info{
+	float:right;
+	width: 20%;
+}
+span{
+	display: block;
+}
+img{
+	width: 10%;
+}
+/*        Article       */
+.article-box{
+	border-bottom: 1px solid #b3b3b3;
+	padding: 0px 0px 26px 0px;
+}
+/*.article-box : last-child{
+	border: none;
+}*/
 table{
-	width: 100%;
+	border: 1px solid black;
 }
-h1{
-	float: left;
+td,th{
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
 }
+
+/*   Footer    */
+footer{
+	padding: 0px 0px 26px 0px;
+}
+footer span{
+	display: inline;
+}
+footer span b{
+float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
