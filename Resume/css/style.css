@@ -3,7 +3,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6{
 	font-family:"Times New Roman", Georgia, Serif;
 	text-decoration: underline;
 }
@@ -22,7 +22,7 @@ ul{
 }*/
 .heading-box{
 	padding: 10px 10px 10px 10px;
-	background-color: #dddddd;
+	background-color: #99e6ff;
 }
 .content-wrapper{
 	padding: 0px 20px 0px 20px;
@@ -47,7 +47,7 @@ img{
 }
 /*        Article       */
 .article-box{
-	border-bottom: 1px solid #b3b3b3;
+	border-bottom: 1px solid #008fb3;
 	padding: 20px 0px 20px 0px;
 	margin-bottom: 5px;
 }
@@ -57,21 +57,25 @@ img{
 .table-wrapper{
 	margin-top: 20px;
 }
+.text-bold{
+	font-weight: bold;
+	display: inline;
+}
 table{
 	font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 thead{
-	background-color: #dddddd;
+	background-color: #ffc299;
 }
 td,th,tr{
-	border: 1px solid #B3B3A8;
+	border: 1px solid #b34700;
     text-align: left;
     padding: 10px;
 }
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #ffc299;
 }
 /*   Footer    */
 footer{
