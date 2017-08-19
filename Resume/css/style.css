@@ -5,11 +5,24 @@ body{
 }
 h1,h2,h3,h4,h5,h6,p{
 	font-family:"Times New Roman", Georgia, Serif;
+	text-decoration: underline;
 }
 /*        Header       */
-header,article{
+header,article,h1,h2,h3,h4,h5,h6,ul,li,footer{
 	padding: 0px;
 	margin: 0px;
+}
+ul{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+/*li::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}*/
+.heading-box{
+	padding: 10px 10px 10px 10px;
+	background-color: #dddddd;
 }
 .content-wrapper{
 	padding: 0px 20px 0px 20px;
@@ -24,6 +37,7 @@ header,article{
 .personal-info{
 	float:right;
 	width: 20%;
+	margin-top: 20px;
 }
 span{
 	display: block;
@@ -34,22 +48,34 @@ img{
 /*        Article       */
 .article-box{
 	border-bottom: 1px solid #b3b3b3;
-	padding: 0px 0px 26px 0px;
+	padding: 20px 0px 20px 0px;
+	margin-bottom: 5px;
 }
 /*.article-box : last-child{
 	border: none;
 }*/
+.table-wrapper{
+	margin-top: 20px;
+}
 table{
-	border: 1px solid black;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
-td,th{
-	border: 1px solid black;
-	padding: 5px 5px 5px 5px;
+thead{
+	background-color: #dddddd;
 }
-
+td,th,tr{
+	border: 1px solid #B3B3A8;
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 /*   Footer    */
 footer{
-	padding: 0px 0px 26px 0px;
+	padding: 20px 0px 20px 0px;
 }
 footer span{
 	display: inline;
